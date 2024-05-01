@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import { AboutContent } from "./pages/About";
+import { HomeContent } from "./pages/Home";
 
 const TabContent = ({ index }) => {
   const tabContent = {
-    Home: "Home",
+    Home: HomeContent(),
     About: AboutContent(),
     Services: "Product page",
     Equipment: "Gallery Page"
