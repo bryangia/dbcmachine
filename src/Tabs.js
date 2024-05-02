@@ -16,7 +16,7 @@ const TabContent = ({ index }) => {
 };
 
 export const TabComponent = () => {
-  const [value, setValue] = useState("About");
+  const [value, setValue] = useState("Home");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
