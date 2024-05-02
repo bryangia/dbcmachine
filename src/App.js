@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
-import "./App.css";
 import { TabComponent } from "./Tabs";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
-import { Footer } from "./Footer";
+import { Footer } from "./frame/Footer";
+import { Header } from "./frame/Header";
 
 const darkTheme = createTheme({
   palette: {
@@ -15,7 +14,7 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <h1>DBC Machine INC</h1>
+      <Header/>
       <TabComponent />
       <Footer />
     </ThemeProvider>

@@ -5,7 +5,7 @@ export const AboutContent = () => {
     return (
       <div className="about-container">
         
-        <img src={front_sign} alt="sign"/>
+        <img className="AboutImg" src={front_sign} alt="sign"/>
         <h1>About Us</h1>
         <p>DBC Machine INC has been serving the Houston area since 2015. We have served many clients including NOV, Hunting, etc. Quality is our top priority and we strive to deliver our best work in a timely manner.</p>
         <h2>Quality Policy</h2>
